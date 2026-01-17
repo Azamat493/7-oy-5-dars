@@ -1,13 +1,4 @@
-import concrete from "../assets/images/concrete.png";
-import image59 from "../assets/images/image59.png";
-import image8 from "../assets/images/image8.png";
-import image9 from "../assets/images/image9.png";
-import wood from "../assets/images/wood.png";
-import image6 from "../assets/images/image6.png";
-import tile from "../assets/images/tile.png";
-import image4 from "../assets/images/image4.png";
-import image10 from "../assets/images/image10.png";
-import image5 from "../assets/images/image5.png";
+
 import cardimage from "../assets/images/cardimage.png";
 import cardimage1 from "../assets/images/cardimage1.png";
 import cardimage2 from "../assets/images/cardimage2.png";
@@ -38,21 +29,22 @@ import cardimage26 from "../assets/images/cardimage26.png";
 import cardimage27 from "../assets/images/cardimage27.png";
 import cardimage28 from "../assets/images/cardimage28.png";
 import cardimage29 from "../assets/images/cardimage29.png";
+import image33 from "../assets/images/image33.png";
 export const categories = [
-  { name: "Beton va qorishmalar", icon: concrete },
-  { name: "Kabel mahsulotlari", icon: image59 },
-  { name: "To'ldiruvchilar", icon: image8 },
-  { name: "Metall prokat", icon: image9 },
-  { name: "Yog'och material", icon: wood },
-  { name: "Plastmassalar", icon: image6 },
-  { name: "Keramika", icon: tile },
-  { name: "Izolyatsiya", icon: image4 },
-  { name: "Tom yopish va gidroizolyatsiya materiallari", icon: image10 },
-  { name: "Qoplamali va yopishtiruvchi materiallar va buyumlar", icon: image5 },
+  { name: "Beton va qorishmalar", icon: "/concrete.png" },
+  { name: "Kabel mahsulotlari", icon: "/image59.png" },
+  { name: "To'ldiruvchilar", icon: "/image8.png" },
+  { name: "Metall prokat", icon: "/image9.png" },
+  { name: "Yog'och material", icon: "/wood.png" },
+  { name: "Plastmassalar", icon: "/image6.png" },
+  { name: "Keramika", icon: "/tile.png" },
+  { name: "Izolyatsiya", icon: "/image4.png" },
+  { name: "Tom yopish va gidroizolyatsiya materiallari", icon: "/image10.png" },
+  { name: "Qoplamali va yopishtiruvchi materiallar va buyumlar", icon: "/image5.png" },
 ];
 
 export const machineCategories = [
-  { name: "Qazish mashinalari", icon: "🚜" },
+  { name: "Qazish mashinalari", icon: image33 },
   { name: "Oziq va truba ishlari", icon: "🚛" },
   { name: "Tunnel qazish", icon: "⛏️" },
   { name: "Burg'ulash", icon: "🏗️" },
