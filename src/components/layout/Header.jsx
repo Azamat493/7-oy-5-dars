@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <div className="bg-[#1F2945] text-white sticky top-0 z-50 shadow-md">
-      <div className="max-w-[1170px] w-[90%] mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="contaner w-[95%] mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="">
             <img src={logo} alt="" />
@@ -69,7 +69,7 @@ const Header = () => {
       </div>
 
       <div className="bg-[#2D3B5E] border-t border-white/10">
-        <div className="max-w-[1170px] w-[90%] mx-auto px-4">
+        <div className="contaner w-[95%] mx-auto px-4">
           <nav className="flex items-center gap-6 md:gap-8 overflow-x-auto text-sm py-3 scrollbar-hide">
             <NavLink to="/" end className={linkClass}>
               Materiallar va buyumlar

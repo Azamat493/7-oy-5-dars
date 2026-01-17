@@ -9,7 +9,7 @@ const MachinesPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="max-w-[1170px] w-[90%] mx-auto px-4 py-6">
+    <div className="contaner w-[95%] mx-auto px-4 py-6">
       <CategoryGrid categories={machineCategories} />
 
       <div className="flex justify-between items-center mb-6">

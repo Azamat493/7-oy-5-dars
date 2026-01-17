@@ -2,8 +2,6 @@
 
 @theme {
   --font-family: "Rubik", sans-serif;
-  
-  /* Ranglar */
   --color-primary-dark: #1F2945;
   --color-primary-blue: #0ea5e9;
   --color-bg-light: #F8F9FC;
@@ -15,7 +13,7 @@ body {
   color: #1e293b;
 }
 
-/* Scrollbarni yashirish uchun utility */
+
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }

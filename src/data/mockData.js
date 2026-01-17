@@ -30,6 +30,23 @@ import cardimage27 from "../assets/images/cardimage27.png";
 import cardimage28 from "../assets/images/cardimage28.png";
 import cardimage29 from "../assets/images/cardimage29.png";
 import image33 from "../assets/images/image33.png";
+import image16 from "../assets/images/image16.png";
+import image24 from "../assets/images/image24.png";
+import image65 from "../assets/images/image65.png";
+import image15 from "../assets/images/image15.png";
+import image25 from "../assets/images/image25.png";
+import image23 from "../assets/images/image23.png";
+import image20 from "../assets/images/image20.png";
+import image21 from "../assets/images/image21.png";
+import image351 from "../assets/images/image351.png";
+import image371 from "../assets/images/image371.png";
+import image34 from "../assets/images/image34.png";
+import image28 from "../assets/images/image28.png";
+import image341 from "../assets/images/image341.png";
+import image31 from "../assets/images/image31.png";
+import image32 from "../assets/images/image32.png";
+import image342 from "../assets/images/image342.png";
+import image30 from "../assets/images/image30.png";
 export const categories = [
   { name: "Beton va qorishmalar", icon: "/concrete.png" },
   { name: "Kabel mahsulotlari", icon: "/image59.png" },
@@ -45,9 +62,23 @@ export const categories = [
 
 export const machineCategories = [
   { name: "Qazish mashinalari", icon: image33 },
-  { name: "Oziq va truba ishlari", icon: "🚛" },
-  { name: "Tunnel qazish", icon: "⛏️" },
-  { name: "Burg'ulash", icon: "🏗️" },
+  { name: "Qoziq va truba ishlari uchun mashinalar va agregatlar", icon: image16 },
+  { name: "Tunnel va kon qazish mashinalari", icon: image24 },
+  { name: "Burg'ulash mashinalari va agregatlari", icon: image65 },
+  { name: "Kranlar", icon: image15 },
+  { name: "Yuk ko'tarish va tashish mashinalari", icon: image25 },
+  { name: "Beton qorishmani tayyorlash, uzatish va yotqizish mashinalari", icon: image23 },
+  { name: "Yo'l va aerodrom qurilishi uchun mashinalar", icon: image20 },
+  { name: "Temir yo'l qurilishi mashinalari", icon: image21 },
+  { name: "Magistral quvurlarni qurish uchun mashinalar", icon: image351 },
+  { name: "Aloqa liniyalari va elektr uzatish inshootlari uchun mashinalar", icon: image371 },
+  { name: "Suv xo'jaligi qurilishi uchun mashinalar", icon: image34 },
+  { name: "Maxsus transport vositalari", icon: image28 },
+  { name: "Qurilish materiallarini tashish vositalari", icon: image341 },
+  { name: "Traktorlar, traktor tirkamalari", icon: image31 },
+  { name: "Bo'g'inlarni payvandlash va nazorat qilish moslamalari", icon: image32 },
+  { name: "Nasoslar, nasos stantsiyalari, sovutish va muzlatish", icon: image342 },
+  { name: "Kemalar, suv osti texnik ishlari uchun suzuvchi mashinalar", icon: image30 },
 ];
 
 export const materialsData = [
