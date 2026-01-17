@@ -1,4 +1,3 @@
-
 import cardimage from "../assets/images/cardimage.png";
 import cardimage1 from "../assets/images/cardimage1.png";
 import cardimage2 from "../assets/images/cardimage2.png";
@@ -29,8 +28,6 @@ import cardimage26 from "../assets/images/cardimage26.png";
 import cardimage27 from "../assets/images/cardimage27.png";
 import cardimage28 from "../assets/images/cardimage28.png";
 import cardimage29 from "../assets/images/cardimage29.png";
-import image33 from "../assets/images/image33.png";
-
 
 export const categories = [
   { name: "Beton va qorishmalar", icon: "/concrete.png" },
@@ -42,28 +39,52 @@ export const categories = [
   { name: "Keramika", icon: "/tile.png" },
   { name: "Izolyatsiya", icon: "/image4.png" },
   { name: "Tom yopish va gidroizolyatsiya materiallari", icon: "/image10.png" },
-  { name: "Qoplamali va yopishtiruvchi materiallar va buyumlar", icon: "/image5.png" },
+  {
+    name: "Qoplamali va yopishtiruvchi materiallar va buyumlar",
+    icon: "/image5.png",
+  },
 ];
 
 export const machineCategories = [
   { name: "Qazish mashinalari", icon: "/image33.png" },
-  { name: "Qoziq va truba ishlari uchun mashinalar va agregatlar", icon: "/image16.png" },
+  {
+    name: "Qoziq va truba ishlari uchun mashinalar va agregatlar",
+    icon: "/image16.png",
+  },
   { name: "Tunnel va kon qazish mashinalari", icon: "/image24.png" },
   { name: "Burg'ulash mashinalari va agregatlari", icon: "/image65.png" },
   { name: "Kranlar", icon: "/image15.png" },
   { name: "Yuk ko'tarish va tashish mashinalari", icon: "/image25.png" },
-  { name: "Beton qorishmani tayyorlash, uzatish va yotqizish mashinalari", icon: "/image23.png" },
+  {
+    name: "Beton qorishmani tayyorlash, uzatish va yotqizish mashinalari",
+    icon: "/image23.png",
+  },
   { name: "Yo'l va aerodrom qurilishi uchun mashinalar", icon: "/image20.png" },
   { name: "Temir yo'l qurilishi mashinalari", icon: "/image21.png" },
-  { name: "Magistral quvurlarni qurish uchun mashinalar", icon: "/image351.png" },
-  { name: "Aloqa liniyalari va elektr uzatish inshootlari uchun mashinalar", icon: "/image371.png" },
+  {
+    name: "Magistral quvurlarni qurish uchun mashinalar",
+    icon: "/image351.png",
+  },
+  {
+    name: "Aloqa liniyalari va elektr uzatish inshootlari uchun mashinalar",
+    icon: "/image371.png",
+  },
   { name: "Suv xo'jaligi qurilishi uchun mashinalar", icon: "/image34.png" },
   { name: "Maxsus transport vositalari", icon: "/image28.png" },
   { name: "Qurilish materiallarini tashish vositalari", icon: "/image341.png" },
   { name: "Traktorlar, traktor tirkamalari", icon: "/image31.png" },
-  { name: "Bo'g'inlarni payvandlash va nazorat qilish moslamalari", icon: "/image32.png" },
-  { name: "Nasoslar, nasos stantsiyalari, sovutish va muzlatish", icon: "/image342.png" },
-  { name: "Kemalar, suv osti texnik ishlari uchun suzuvchi mashinalar", icon: "/image30.png" },
+  {
+    name: "Bo'g'inlarni payvandlash va nazorat qilish moslamalari",
+    icon: "/image32.png",
+  },
+  {
+    name: "Nasoslar, nasos stantsiyalari, sovutish va muzlatish",
+    icon: "/image342.png",
+  },
+  {
+    name: "Kemalar, suv osti texnik ishlari uchun suzuvchi mashinalar",
+    icon: "/image30.png",
+  },
 ];
 
 export const materialsData = [
@@ -228,8 +249,7 @@ export const machinesData = [
   },
   {
     id: "#91.09.08-011",
-    title:
-      "Спецсоставы для перевозки рельсовых плетей",
+    title: "Спецсоставы для перевозки рельсовых плетей",
     image: cardimage25,
   },
   {
@@ -246,14 +266,12 @@ export const machinesData = [
   },
   {
     id: "#91.08.03-008",
-    title:
-      "Катки прицепные пневмоколесные статические, масса 50 т",
+    title: "Катки прицепные пневмоколесные статические, масса 50 т",
     image: cardimage28,
   },
   {
     id: "#91.14.01-003",
-    title:
-      "Автобетоносмесители, объем барабана 6 м3",
+    title: "Автобетоносмесители, объем барабана 6 м3",
     image: cardimage29,
   },
 ];
